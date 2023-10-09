@@ -33,7 +33,7 @@ function buildMap() {
 			container: 'map',
 			style: styleJson,
 			center: [-99.341389, 31.132222],
-            zoom: 9
+			zoom: 9
 		})
 	})
 }
