@@ -41,7 +41,7 @@ function buildMap() {
 
 ### Basic CDN Usage
 ```html
-<script src="https://unpkg.com/@txdot-gis/esri-ago-style-json@1.0.11/dist/index.js"></script>
+<script src="https://unpkg.com/@txdot-gis/esri-ago-style-json@1.0.12/dist/index.js"></script>
 <script >
 	const styleJson = esriAgoStyleJson.default('https://tiles.arcgis.com/tiles/KTcxiTD9dsQw4r7Z/arcgis/rest/services/TxDOT_Vector_Tile_Basemap/VectorTileServer')
 	.then(res => res)
