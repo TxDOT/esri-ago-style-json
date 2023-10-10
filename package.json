@@ -2,7 +2,7 @@
   "name": "@txdot-gis/esri-ago-style-json",
   "version": "1.0.11",
   "description": "ArcGIS Online vector tile basemap service Style JSON builder for default layer URL definition with relative paths.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
