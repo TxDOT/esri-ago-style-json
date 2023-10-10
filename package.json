@@ -4,7 +4,8 @@
   "description": "ArcGIS Online vector tile basemap service Style JSON builder for default layer URL definition with relative paths.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,9 @@
   },
   "homepage": "https://github.com/TxDOT/esri-ago-style-json#readme",
   "devDependencies": {
-    "eslint": "^8.51.0"
+    "eslint": "^8.51.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   },
   "dependencies": {
     "axios": "^1.5.1"
